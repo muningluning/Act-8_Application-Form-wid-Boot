@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="application form.css">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+    <section>
+         <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand p-3" href="">kittech</a>
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+        
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Culture</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Benefits</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a class="nav-link" href="">People</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Company Overview</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- APPLICATION FORMS -->
+    <section>
+        <div class="container-fluid" id="app">
+            <div class="row">
+                <div class="col-md-1"></div>
+    
+                <div class="col-lg-4 col-md-4" id="catload">
+                    <img src="cat loading.gif" alt="loading" class="img-fluid">
+                </div>
+        
+                <div class="col-md-1"></div>
+    
+                <div class="col-lg-4 col-md-4" id="appform">
+                    <form class="row p-4 form-control" style="background-image:linear-gradient(#f3c38c,#eaab5d);">
+                        <h2 class="text-center">APPLICATION FORM</h2>
+                        <p>Thank you for your interest in working with us! Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</p>
+                        <hr id="line">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text">Import</label>
+                            <select class="form-select form-select-sm">
+                                <option>Import resume from</option>
+                                <option>My Computer</option>
+                                <option>Dropbox</option>
+                                <option>Google Drive</option>
+                            </select>
+                        </div>
+    
+                        <div class="col">
+                            <h5>Personal Details</h5>
+    
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Genre</label>
+    
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <label>What is your employment status</label>
+                                </div>
+                            </div>
+    
+                            <div class="row">
+                                <label>Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Last Name" >
+                                        <input type="text" class="form-control" placeholder="Middle Name" >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="First Name" >
+                                        <input type="text" class="form-control" placeholder="Suffix, N/A if none" >
+                                    </div>
+                            </div>
+                            
+                            
+                            <br>
+                            <div class="row">
+                                <label>Email Address</label>
+                                    <div class="input-group mb-3">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                        <span class="input-group-text" id="basic-addon2">.com</span>
+                                    </div>
+                            </div>
+                            <br>
+                            <h5>Schedule Appointment</h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>What position are you applying?</label>
+                                    <select class="form-select">
+                                        <option>-Select-</option>
+                                        <option>Back-End Developer</option>
+                                        <option>Database Developer</option>
+                                        <option>Front-End Developer</option>
+                                        <option>Network Security Engineer</option>
+                                        <option>Software Developer</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Available date</label>
+                                    <input class="form-select" type="date">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col">
+                                    <label>Please provide reference (optional)</label>
+                                    <input type="text" class="form-control" placeholder="Name of reference">
+                                    <br>
+                                    <label>Email Address of Reference</label>
+                                    <input type="email" class="form-control" placeholder="Email of Reference">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="d-grid gap-3">
+                                    <button type="button" class="btn btn-outline-dark">Reset</button>
+                                    <button type="button" class="btn btn-outline-dark">Submit Application</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+    
+
+    
+
+</body>
+</html>
